@@ -11,7 +11,7 @@ app = dash.Dash(__name__)
 server = app.server
 
 # Dummy path to STL file - replace with your actual path
-STL_PATH = "C:/Users/jackg/Desktop/Useful/human.stl"
+STL_PATH = "human.stl"
 
 
 def load_stl_file(file_path):
