@@ -8,6 +8,7 @@ from stl.mesh import Mesh
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # Dummy path to STL file - replace with your actual path
 STL_PATH = "C:/Users/jackg/Desktop/Useful/human.stl"
